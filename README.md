@@ -18,7 +18,7 @@ The design blends a cozy, homely feel with a clean and responsive layout, making
 ### Ordering Page
 ![Screenshot](screenshots/Screenshot%202025-08-14%20030843.png)
 
-### Catalog Page
+### Catalogue Page
 ![Screenshot](screenshots/Screenshot%202025-08-14%20030901.png)
 ![Screenshot](screenshots/Screenshot%202025-08-14%20030920.png)
 
