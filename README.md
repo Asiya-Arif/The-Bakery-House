@@ -15,14 +15,21 @@ The design blends a cozy, homely feel with a clean and responsive layout, making
 - **JavaScript**
 
 ### Homepage
-![Homepage Screenshot](screenshots/homepage.png)
+![Home Page](The-Bakery-House/screenshots/Screenshot%202025-08-14%20030751.png)
 
-### Product Listing
-![Product Page Screenshot](screenshots/products.png)
+### About Us Page
+![About Us](The-Bakery-House/screenshots/Screenshot%2025-08-14%030811.png)
 
 ### Ordering Page
-![Ordering Page Screenshot](screenshots/order.png)
+![Ordering Page](The-Bakery-House/screenshots/Screenshot%2025-08-14%030843.png)
+
+### Catalog Page
+![Catalog Page](The-Bakery-House/screenshots/Screenshot%2025-08-14%030901.png)
+![Catalog Page](The-Bakery-House/screenshots/Screenshot%2025-08-14%030920.png)
+
+### Cart Page
+![Cart Page](The-Bakery-House/screenshots/Screenshot%2025-08-14%030946.png)
 
 ### Contact Page
-![Contact Page Screenshot](screenshots/contact.png)
+![Home Page](The-Bakery-House/screenshots/Screenshot%2025-08-14%030958.png)
 
