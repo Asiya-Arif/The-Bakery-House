@@ -10,7 +10,7 @@ The design blends a cozy, homely feel with a clean and responsive layout, making
 - 📩 **Contact Section** for inquiries and feedback              
 
 ### Homepage
-<img src="The-Bakery-House/screenshots/Screenshot%202025-08-14%20030751.png" width="1000">
+![Screenshot](screenshots/Screenshot%202025-08-14%20030751.png)
 
 ### About Us Page
 <img src="./The-Bakery-House/screenshots/Screenshot 2025-08-14 030811.png" width=1000 >
