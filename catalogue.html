@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>The Bakery House</title>
+    <style>
+    .navbar-nav .nav-item:not(.active) .nav-link {
+        color: #3e2723; /* Dark brown color */
+        
+    }
+
+/* Add this style for the rounded corner button */
+.add-to-cart-btn {
+    background-color: #C4A484;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 10px; /* Adjust the border-radius as needed */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #a38766; /* Change the color on hover as desired */
+}
+</style>
+</head>
+
+<body>
+
+    <!-- navigation starts -->
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand"><img src="images/logobg.png" width="100"></a>
+
+            <div class="collpase navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="login.html" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="registration.html" class="nav-link">Order</a></li>
+                    <li class="nav-item active"><a href="catalogue.html" class="nav-link">Catalogue</a></li>
+                    <li class="nav-item"><a href="cart.html" class="nav-link">Cart</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navigation ends -->
+
+<!-- gallery section starts  -->
+<section class="ftco-section bg-light" id="gallery">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title normal-title">
+                    <div class="row justify-content-center mb-5 pb-2">
+                        <div class="col-md-12 text-center heading-section ftco-animate">
+                            <span class="subheading" style="margin-top: 20px;">Gallery</span> <!-- Adjust the margin-top value as needed -->
+                            <h2 class="mb-4" style="margin-top: 40px;">Our Hot Picked Cakes & Pies</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-4 col-6">
+                <div class="gallery__pic">
+                    <img src="images/dish1.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-6">
+                <div class="gallery__pic">
+                    <img src="images/dish3.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-6">
+                <div class="gallery__pic">
+                    <img src="images/dish4.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-6">
+                <div class="gallery__pic">
+                    <img src="images/dish6.jpeg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-6">
+                <div class="gallery__pic">
+                    <img src="images/dish2.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-6">
+                <div class="gallery__pic">
+                    <img src="images/pic1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- gallery section ends  -->
+
+
+<!-- menu section starts -->
+<section class="ftco-section" id="menu">
+    <div class="container-fluid px-4">
+        <div class="row justify-content-center mb-5 pb-2">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+                <span class="subheading">Specialities</span>
+                <h2 class="mb-4">Our Menu</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+
+<!-- First Row - Cakes 1 to 5 -->
+<div class="row justify-content-center">
+
+    <!-- Cake 1 -->
+    <div class="col-md-6 col-lg-2 menu-wrap">
+                    <div class="card ftco-animate" style="width: 15rem; margin: 12px;">
+                    <img src="images/menu1.jpg" class="card-img-top" alt="Chocolate Cake">
+                    <div class="card-body">
+                        <h5 class="card-title">Custard Cake</h5>
+                        <p class="card-text">Weight : 500g</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="price">₹400</span>
+                            <button class="add-to-cart-btn" onclick="addToCart('Chocoberry Cake', 400)">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cake 2 --> 
+            <div class="col-md-6 col-lg-2 menu-wrap">
+                <div class="card ftco-animate" style="width: 15rem; margin: 12px;">
+                    <img src="images/menu2.jpg" class="card-img-top" alt="Red Velvet Cake">
+                    <div class="card-body">
+                        <h5 class="card-title">Red Velvet Cake</h5>
+                        <p class="card-text">Weight : 500g</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="price">₹399</span>
+                            <button class="add-to-cart-btn" onclick="addToCart('Red Velvet Cake', 399)">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cake 3 -->
+            <div class="col-md-6 col-lg-2 menu-wrap">
+                <div class="card ftco-animate" style="width: 15rem; margin: 12px;">
+                    <img src="images/menu7.jpg" class="card-img-top" alt="Carrot Cake">
+                    <div class="card-body">
+                        <h5 class="card-title">Carrot Cake</h5>
+                        <p class="card-text">Weight : 500g</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="price">₹399</span>
+                            <button class="add-to-cart-btn" onclick="addToCart('Carrot Cake', 399)">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <!-- Cake 4 -->
+            <div class="col-md-6 col-lg-2 menu-wrap">
+                <div class="card ftco-animate" style="width: 15rem; margin: 12px;">
+                    <img src="images/menu4.jpg" class="card-img-top" alt="Blueberry Cake">
+                    <div class="card-body">
+                        <h5 class="card-title">Rose Macarons</h5>
+                        <p class="card-text">Quantity: 6</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="price">₹350</span>
+                            <button class="add-to-cart-btn" onclick="addToCart('Rose Macarons', 350)">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cake 5 -->
+            <div class="col-md-6 col-lg-2 menu-wrap">
+                <div class="card ftco-animate" style="width: 15rem; margin: 10px;">
+        <img src="images/menu9.jpg" class="card-img-top" alt="Chocolate Soufflé">
+        <div class="card-body">
+            <h5 class="card-title">Chocolate Soufflé</h5>
+            <p class="card-text">Quantity: 2</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <span class="price">₹200</span>
+                <button class="add-to-cart-btn" onclick="addToCart('Chocolate Soufflé', 200)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Second Row - Cakes 6 to 10 -->
+<div class="row justify-content-center">
+    <!-- Cake 6 -->
+    <div class="col-md-6 col-lg-2 menu-wrap">
+        <div class="card ftco-animate" style="width: 15rem; margin: 18px;">
+        <img src="images/menu6.jpg" class="card-img-top" alt="Sugar Cookies">
+        <div class="card-body">
+            <h5 class="card-title">Sugar Cookies</h5>
+            <p class="card-text">Quantity: 12</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <span class="price">₹300</span>
+                <button class="add-to-cart-btn" onclick="addToCart('Sugar Cookies', 300)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+            <!-- Cake 7 -->
+            <div class="col-md-6 col-lg-2 menu-wrap">
+                <div class="card ftco-animate" style="width: 15rem; margin: 18px;">
+                    <img src="images/menu8.jpg" class="card-img-top" alt="pumkin pie">
+                    <div class="card-body">
+                        <h5 class="card-title">Pumkin Pie</h5>
+                        <p class="card-text">Weight : 500g</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="price">₹499</span>
+                            <button class="add-to-cart-btn" onclick="addToCart('Pumkin Pie', 499)">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cake 8 -->
+            <div class="col-md-6 col-lg-2 menu-wrap">
+                <div class="card ftco-animate" style="width: 15rem; margin: 18px;">
+                    <img src="images/menu3.jpg" class="card-img-top" alt="Strawberry Cupcakes">
+                    <div class="card-body">
+                        <h5 class="card-title">Strawberry Cupcakes</h5>
+                        <p class="card-text">Quantity: 6</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="price">₹250</span>
+                            <button class="add-to-cart-btn" onclick="addToCart('Strawberry Cupcakes', 250)">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cake 9 -->
+            <div class="col-md-6 col-lg-2 menu-wrap">
+                <div class="card ftco-animate" style="width: 15rem; margin: 18px;">
+                    <img src="images/menu10.jpg" class="card-img-top" alt="Brownie">
+                    <div class="card-body">
+                        <h5 class="card-title">Brownies</h5>
+                        <p class="card-text">Quantity: 9</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="price">₹450</span>
+                            <button class="add-to-cart-btn" onclick="addToCart('Brownies', 450)">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cake 10 -->
+            <div class="col-md-6 col-lg-2 menu-wrap">
+                <div class="card ftco-animate" style="width: 15rem; margin: 18px;">
+                    <img src="images/menu5.jpg" class="card-img-top" alt="Cheese Garlic Bread">
+                    <div class="card-body">
+                        <h5 class="card-title">Cheese Garlic Bread</h5>
+                        <p class="card-text">Quantity: 4</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="price">₹400</span>
+                            <button class="add-to-cart-btn" onclick="addToCart('Cheese Garlic Bread', 400)">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- menu section ends -->
+
+
+    <!-- scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

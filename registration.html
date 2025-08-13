@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="style.css">
+    <title>The Bakery House</title>
+<style>
+    body {
+        background-image: url('images/wallpaper.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        padding: 20px; /* Adjust padding as needed */
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    form {
+        max-width: 800px;
+        width: 100%;
+        margin-top: 100px; /* Adjust top margin as needed */
+        background: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    label {
+        display: block;
+        margin: 10px 0;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+
+    select {
+        width: 32%;
+        margin-right: 2%;
+    }
+
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        resize: none;
+    }
+
+    input[type="checkbox"],
+    input[type="radio"] {
+        margin-right: 5px;
+    }
+
+    input[type="submit"] {
+        background-color: #C4A484;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .registration-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro_title {
+        text-align: center;
+        margin-bottom: 20px; /* Adjust as needed */
+    }
+
+    .intro_title h2 {
+        color: #C4A484;
+        ; 
+    }
+
+</style>
+</head>
+
+<body>
+    
+    <!-- navigation starts -->
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand"><img src="images/logobg.png" width="100"></a>
+
+            <div class="collpase navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="login.html" class="nav-link">About Us</a></li>
+                    <li class="nav-item active"><a href="registration.html" class="nav-link">Order</a></li>
+                    <li class="nav-item"><a href="catalogue.html" class="nav-link">Catalogue</a></li>
+                    <li class="nav-item"><a href="cart.html" class="nav-link">Cart</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+                            
+    <!-- navigation ends -->
+    
+        <form>
+            <div class="registration-container"></div>
+            <div class="intro_title">
+                <h2>Order & Indulge</h2>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="John Doe">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="email">Email</label>
+                    <input type="text" class="form-control" id="email" placeholder="johndoe@gmail.com">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="********">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="phone">Phone No</label>
+                    <input type="text" class="form-control" id="phone" placeholder="9874563215">
+                </div>
+            </div>
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="day">Day</label>
+                <select id="day" class="form-control">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+                </select>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="month">Month</label>
+                <select id="month" class="form-control">
+                    <option>Jan</option>
+                    <option>Feb</option>
+                    <option>Mar</option>
+                    <option>Apr</option>
+                    <option>May</option>
+                    <option>Jun</option>
+                    <option>July</option>
+                    <option>Aug</option>
+                    <option>Sep</option>
+                    <option>Oct</option>
+                    <option>Nov</option>
+                    <option>Dec</option>
+                </select>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="year">Year</label>
+                <select id="year" class="form-control">
+                        <option>1990</option>
+                        <option>1991</option>
+                        <option>1992</option>
+                        <option>1993</option>
+                        <option>1994</option>
+                        <option>1995</option>
+                        <option>1996</option>
+                        <option>1997</option>
+                        <option>1998</option>
+                        <option>1999</option>
+                        <option>2000</option>
+                        <option>2001</option>
+                        <option>2002</option>
+                        <option>2003</option>
+                        <option>2004</option>
+                        <option>2005</option>
+                    </select>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label>Delivery Preference</label>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="storePickup" name="deliveryType">
+                    <label class="form-check-label" for="storePickup">Store Pick-Up</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="homeDelivery" name="deliveryType">
+                    <label class="form-check-label" for="homeDelivery">Home Delivery</label>
+                </div>
+            </div>
+            <div class="form-group col-md-6">
+                <label>Diet Preference</label>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="nonVeg">
+                    <label class="form-check-label" for="nonVeg">Non-Veg</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="veg">
+                    <label class="form-check-label" for="veg">Veg</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="vegan">
+                    <label class="form-check-label" for="vegan">Vegan</label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="address">Address</label>
+            <textarea class="form-control" id="address" rows="5" placeholder="Enter your address"></textarea>
+        </div>
+        <div class="form-group text-center">
+            <input type="submit" value="Submit" class="btn btn-primary py-3 px-5">
+        </div>
+    </form>
+</body>
+
+</html>
