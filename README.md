@@ -4,32 +4,35 @@ A modern yet vintage-themed bakery website created as part of my **2nd-year Web 
 The design blends a cozy, homely feel with a clean and responsive layout, making it appealing to all bakery lovers.  
 
 ## ✨ Features
-- 🏠 **Homepage** with welcoming banner and featured products  
-- 📜 **Product Listing Page** showcasing bakery items  
-- 🛒 **Ordering Page** for a smooth purchase process  
-- 📩 **Contact Section** for inquiries and feedback  
+- 🏠 **Homepage** with welcoming banner and featured products    ## 🛠️ Technologies Used
+- 📜 **Product Listing Page** showcasing bakery items             - **HTML5**
+- 🛒 **Ordering Page** for a smooth purchase process              - **CSS3**
+- 📩 **Contact Section** for inquiries and feedback               - **JavaScript**
 
-## 🛠️ Technologies Used
-- **HTML5**
-- **CSS3**
-- **JavaScript**
 
 ### Homepage
-![Home Page](The-Bakery-House/screenshots/Screenshot%202025-08-14%20030751.png)
+<img src="The-Bakery-House/screenshots/Screenshot%202025-08-14%20030751.png" width=1000 >
 
 ### About Us Page
-![About Us](The-Bakery-House/screenshots/Screenshot%2025-08-14%030811.png)
+<img src="The-Bakery-House/screenshots/Screenshot%2025-08-14%030811.png" width=1000 >
 
 ### Ordering Page
-![Ordering Page](The-Bakery-House/screenshots/Screenshot%2025-08-14%030843.png)
+<img src="The-Bakery-House/screenshots/Screenshot%2025-08-14%030843.png" width=1000 >
 
 ### Catalog Page
-![Catalog Page](The-Bakery-House/screenshots/Screenshot%2025-08-14%030901.png)
-![Catalog Page](The-Bakery-House/screenshots/Screenshot%2025-08-14%030920.png)
+<img src="The-Bakery-House/screenshots/Screenshot%2025-08-14%030901.png" width=1000 >
+<img src="The-Bakery-House/screenshots/Screenshot%2025-08-14%030920.png" width=1000 >
 
 ### Cart Page
-![Cart Page](The-Bakery-House/screenshots/Screenshot%2025-08-14%030946.png)
+<img src="The-Bakery-House/screenshots/Screenshot%2025-08-14%030946.png" width=1000 >
+
 
 ### Contact Page
-![Home Page](The-Bakery-House/screenshots/Screenshot%2025-08-14%030958.png)
+<img src="The-Bakery-House/screenshots/Screenshot%2025-08-14%030958.png" width=1000 >
+
+
+
+
+
+
 
